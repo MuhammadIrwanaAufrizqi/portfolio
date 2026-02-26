@@ -1,1 +1,5 @@
-console.log("Portfolio Ready!");
+function scrollToContact() {
+    document.getElementById("contact").scrollIntoView({
+        behavior: "smooth"
+    });
+}
