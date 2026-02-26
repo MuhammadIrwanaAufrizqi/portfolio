@@ -6,7 +6,7 @@
     <title>Portfolio Irwana</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="dark">
 
     <!-- Navbar -->
     <nav>
@@ -16,11 +16,12 @@
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Project</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><button class="toggle-btn" onclick="toggleMode()">Mode</button></li>
         </ul>
     </nav>
 
     <!-- Home -->
-    <section id="home">
+    <section id="home" class="hidden">
         <div class="home-content">
             <img src="foto.jpg" class="profile">
             <h1>Halo, Saya</h1>
@@ -31,19 +32,21 @@
     </section>
 
     <!-- About -->
-    <section id="about">
+    <section id="about" class="hidden">
         <h2>Tentang Saya</h2>
         <p>
-            Saya adalah mahasiswa Teknologi Rekayasa Mekatronika yang memiliki minat
-            dalam bidang otomasi, robotika, dan pemrograman.
+            Saya adalah mahasiswa Teknologi Rekayasa Mekatronika
+            yang memiliki minat dalam bidang otomasi,
+            robotika, dan pemrograman.
         </p>
     </section>
 
     <!-- Projects -->
-    <section id="projects">
+    <section id="projects" class="hidden">
         <h2>Project Saya</h2>
 
         <div class="project-container">
+
             <div class="project-card">
                 <h3>Monitoring OEE</h3>
                 <p>Sistem monitoring OEE menggunakan Node-RED</p>
@@ -58,11 +61,12 @@
                 <h3>Arduino Project</h3>
                 <p>Kontrol otomatis menggunakan Arduino</p>
             </div>
+
         </div>
     </section>
 
     <!-- Contact -->
-    <section id="contact">
+    <section id="contact" class="hidden">
         <h2>Contact</h2>
         <p>Email: emailkamu@gmail.com</p>
         <p>WhatsApp: 08xxxxxxxxxx</p>
