@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Saya</title>
+    <title>Portfolio Irwana</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -22,10 +22,11 @@
     <!-- Home -->
     <section id="home">
         <div class="home-content">
+            <img src="foto.jpg" class="profile">
             <h1>Halo, Saya</h1>
             <h2>Muhammad Irwana</h2>
             <p>Mahasiswa Teknologi Rekayasa Mekatronika</p>
-            <button>Hubungi Saya</button>
+            <button onclick="scrollToContact()">Hubungi Saya</button>
         </div>
     </section>
 
@@ -38,17 +39,25 @@
         </p>
     </section>
 
-    <!-- Project -->
+    <!-- Projects -->
     <section id="projects">
         <h2>Project Saya</h2>
-        <div class="project-card">
-            <h3>Project 1</h3>
-            <p>Sistem Monitoring OEE dengan Node-RED</p>
-        </div>
 
-        <div class="project-card">
-            <h3>Project 2</h3>
-            <p>Robot Line Follower</p>
+        <div class="project-container">
+            <div class="project-card">
+                <h3>Monitoring OEE</h3>
+                <p>Sistem monitoring OEE menggunakan Node-RED</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Robot Line Follower</h3>
+                <p>Robot mengikuti garis menggunakan sensor</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Arduino Project</h3>
+                <p>Kontrol otomatis menggunakan Arduino</p>
+            </div>
         </div>
     </section>
 
@@ -56,7 +65,12 @@
     <section id="contact">
         <h2>Contact</h2>
         <p>Email: emailkamu@gmail.com</p>
+        <p>WhatsApp: 08xxxxxxxxxx</p>
     </section>
+
+    <footer>
+        <p>© 2026 Muhammad Irwana</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
