@@ -1,6 +1,10 @@
 body {
-    background: red;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
 }
+
 
 /* Navbar */
 nav {
@@ -96,4 +100,5 @@ footer {
     padding: 20px;
     background: #020617;
 }
+
 
