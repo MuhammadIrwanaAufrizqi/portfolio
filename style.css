@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    background: #020617;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 100px 50px;
+}
+
+#home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background: cyan;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.project-card {
+    background: #1e293b;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
